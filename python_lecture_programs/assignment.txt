@@ -1,0 +1,9 @@
+#-- hash
+() -- brackets
+^ -- carrot
+! -- exclamatory
+, -- comma
+? -- question mark
+$ -- dollar
+~ -- tilde
+@ -- at the rate
