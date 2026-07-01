@@ -1,0 +1,20 @@
+#endswith()
+# startwith()
+# count()
+# find
+# strip()
+# lsstrip()
+# rsstrip()
+# split()
+def school_name():
+    scl_name=input("Enter school name: ")
+    print("name ends with school: ",scl_name.endswith("school"))
+    print("name starts with school: ",scl_name.startswith("spring"))
+    print("take count of school: ",scl_name.count("school"))
+    print("starting position of school: ",scl_name.find("school"))
+    print("trimmed version of school: ",scl_name.strip("school"))
+    print("left trimmed version of school: ",scl_name.lstrip("school"))
+    print("right trimmed version of school: ",scl_name.rstrip("school"))
+    print("split version of school: ",scl_name.split())
+
+school_name()
