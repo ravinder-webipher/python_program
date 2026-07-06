@@ -45,10 +45,9 @@ def view_stocks():
     
     print("view stocks")
     print()
-    #item_name=input("Enter item name: ")
+    item_name=input("Enter item name: ")
     print()
     for item1 in item:
-        item_name=input("Enter item name: ")
         if item_name in item1.values():
             print("Found in stock. details are:")
             for item_key,item_value in item1.items():
@@ -83,5 +82,3 @@ if pwd_correct is True:
     else:
         print("wrong entry. exiting from the application")
         
-
-
