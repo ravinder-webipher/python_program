@@ -25,7 +25,7 @@ class employee:
                 break
     def get_emp_type(self):
         for i in emp_list:
-            if self.eid in i.values():
+            if self.eid==i["id"] and self.empName==i["name"]:
                 return i["type"]
                   
 class permEmp():
